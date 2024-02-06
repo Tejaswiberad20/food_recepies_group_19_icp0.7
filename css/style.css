@@ -1,0 +1,54 @@
+body{
+background-image: url('aloobaingan.jpg');
+width: auto;
+height:auto;
+}
+.div1{
+    display: flex;
+    justify-content: right;
+    color:black;
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: rgb(83, 82, 82);
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-inline: 10px;
+}
+.logo{
+    font-size: 50px;
+    color: red;
+    border-bottom: 5px black;
+    border-radius: 40px;
+}
+.btn{
+    width:60px;
+    height: 30px;
+    border: 2px solid rgba(250, 10, 10, 0.801);
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right:5px;
+
+}
+.btn:hover{
+    background-color: black;
+    border: 3px rgba(250, 10, 10, 0.801);
+    cursor: pointer;
+}
+.maindiv{
+    justify-content:space-around ;
+    color: black;
+
+}
+.maindiv .head{
+    font-size: 50px;
+    margin-left: 40px;
+
+}
