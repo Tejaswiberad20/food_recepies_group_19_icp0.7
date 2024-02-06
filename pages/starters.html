@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starters</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/starters.css">
+    <style>
+        @media screen and (min-width:992px){
+            .row{
+                display: flex;
+            }
+
+        }
+        @media screen and (max-width:992px){
+            .row{
+                flex-wrap: wrap;
+            }
+        }
+       
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            width: 96%;
+            margin: 0 auto;
+        }
+
+        .page-heading {
+            font-size: 75px;
+            padding: 30px 20px 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+
+        .row{            
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        img {
+            height: 550px;  
+            position: relative;
+            border-radius: 10px;
+        }
+
+        img:hover{
+            border: 5px solid black;
+            border-radius: 50px;
+        }
+
+        h2{
+            text-align: center;
+        }
+        .item-name{
+            font-size: 40px; 
+            position: absolute;
+            top: 460px;
+            left: 10px;
+        }
+
+        .card{
+            position: relative;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-heading">Starters</h1>
+        <div class="row">
+            <div class="card">
+                <a href="/pages/starters/batata-vada.html"><img src="../images/batata-vada.jpg" /></a>
+                <h2 class="item-name">Batata Vada</h2>
+            </div>
+
+            <div class="card">
+                <a href="/pages/starters/dahi-vada.html"><img src="../images/dahi-vada.jpg" /></a>
+                <h2 class="item-name">Dahi Vada</h2>
+            </div>
+
+            <div class="card">
+                <img src="../images/eggless-cookies.jpg" />
+                <h2 class="item-name">Eggless Cookies</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="../images/paneer-65-recipe.jpg" />
+                <h2 class="item-name">Paneer 65</h2>
+            </div>
+
+            <div class="card">
+                <img src="../images/paneer-tikka-recipe.jpg" />
+                <h2 class="item-name">Paneer Tikka</h2>
+            </div>
+
+            <div class="card">
+                <img src="../images/methi-muthia-recipe.jpg" />
+                <h2 class="item-name">Methi Muthia</h2>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
