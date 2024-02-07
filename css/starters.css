@@ -25,7 +25,7 @@ body {
 .main-img img {
     height: 600px;
     position: sticky;
-    padding: 0 0 30px 400px;
+    padding: 30px 0 30px 400px;
 }
 
 .container-1 {
