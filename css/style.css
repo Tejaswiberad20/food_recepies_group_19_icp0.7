@@ -3,6 +3,7 @@ background-image: url("aloogobi.jpeg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+background-color: aqua;
 
 }
 .div1{
@@ -48,4 +49,11 @@ ul{
     font-size: 50px;
     margin-left: 40px;
 
+}
+footer{
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size:30px;
 }
