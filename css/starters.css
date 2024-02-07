@@ -86,3 +86,9 @@ p {
     display: block;
     margin: 0 auto;
 }
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
