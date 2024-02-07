@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Non-Veg </title>
+    <link rel="stylesheet" href="../css/starters.css">
+    <link rel="icon" href="../../images/chef.png"/>
+    <style>
+        @media screen and (min-width:992px){
+            .row{
+                display: flex;
+            }
+
+        }
+        @media screen and (max-width:992px){
+            .row{
+                flex-wrap: wrap;
+            }
+        }
+       
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            width: 96%;
+            margin: 5px auto;
+            border-radius: 30px;
+        }
+
+        .page-headings {
+            font-size: 60px;
+            padding:20px 10px 10px 10px;
+            text-align: center;
+        }
+
+        .sub-heading{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .row{            
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        img {
+            height: 550px;  
+            position: relative;
+            border-radius: 10px;
+            box-shadow:0 0 10px 3px #a3a3a3;
+        }
+
+        img:hover{
+            border: 3px solid black;
+            border-radius: 50px;
+            transition: 100ms;
+        }
+
+        h2{
+            text-align: center;
+        }
+        .item-name{
+            font-size: 40px; 
+            position: absolute;
+            top: 460px;
+            left: 10px;
+        }
+
+        .card{
+            position: relative;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-headings">Non-Veg </h1>
+        <hr/>
+        <p>Something Hot, Something Tasty </p>
+
+        <h3 class="sub-heading">Enjoy Your favourite Non-Veg Recipies here!</h3>
+        <div class="row">
+            <div class="card">
+                <a href="Chickenmasala.html"><img src="./../images/54673639.webp" /></a>
+                <h2 class="item-name">Chicken Curry Masala</h2>
+            </div>
+
+            <div class="card">
+                <a href="chickentikka.html"><img src="./../images/download (1).jpg" /></a>
+                <h2 class="item-name">Chicken Tikka </h2>
+            </div>
+
+            <div class="card">
+                <a href="Firecracker.html"><img src="./../images/download (2).jpg"/></a>
+                <h2 class="item-name">Firecracker Chicken </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <a href="ChickenLollipop.html"><img src="./../images/shutterstock_761402230.webp" /></a>
+                <h2 class="item-name">Chicken Lollipop</h2>
+            </div>
+
+            <div class="card">
+                a href=" Biryani.html"> <img src="./../images/Chicken-Biryani-Recipe.jpg"  /></a>
+                <h2 class="item-name">Hyderabadi-chicken-Biryani</h2>
+            </div>
+
+            <div class="card">
+                <a href="GarlicButter.html"> <img src="./../images/wholesomeyum-Garlic-Butter-Chicken-1.jpg"  /></a>
+                <h2 class="item-name"> Garlic Butter Chicken</h2>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h3 class="sub-heading"><i class="fa-solid fa-right-to-bracket" style="color: #000000;">  </i> Join Our Community Now!</h3>
+        <p>Join our Community and add on your own recipies! <br/>Also get chance to interact with some world famous chef's and get featured on our page!</p>
+        <button class="btn">Join Now</button><br/>
+    </div>
+</body>
+
+</html>
