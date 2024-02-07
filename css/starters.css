@@ -1,3 +1,15 @@
+@media screen and (min-width:992px){
+    .content{
+        display: flex;
+    }
+
+}
+@media screen and (max-width:992px){
+    .content{
+        flex-wrap: wrap;
+    }
+}
+
 body {
     background-color: black;
     margin: 0;
@@ -16,10 +28,6 @@ body {
     font-size: 50px;
     padding: 20px;
     width: 90%;
-}
-
-.content {
-    display: flex;
 }
 
 .main-img img {
