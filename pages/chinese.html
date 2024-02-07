@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese</title>
+ 
+    <style>
+        @media screen and (min-width:992px){
+            .row{
+                display: flex;
+            }
+
+        }
+        @media screen and (max-width:992px){
+            .row{
+                flex-wrap: wrap;
+            }
+        }
+       
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            width: 96%;
+            margin: 0 auto;
+            border-radius: 30px;
+        }
+
+        .page-heading {
+            font-size: 75px;
+            padding: 30px 20px 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+
+        .row{            
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        img {
+            height: 550px;  
+            position: relative;
+            border-radius: 10px;
+            box-shadow:0 0 10px 3px #a3a3a3;
+        }
+
+        img:hover{
+            border: 3px solid black;
+            border-radius: 50px;
+            transition: 100ms;
+        }
+        .sub-heading{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+        }
+        .item-name{
+            font-size: 40px; 
+            position: absolute;
+            top: 460px;
+            left: 10px;
+        }
+
+        .card{
+            position: relative;
+        }
+        .last{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-heading">Chinese</h1>
+      
+             <h2 class="last"><b>Though Asian cuisines have mixed throughout history throughout Asia, the most popular origin story of the fusion food resides with Chinese labourers of Calcutta (now called Kolkata), who immigrated to British Raj India looking for work.</b></h2>
+
+        <h3 class="sub-heading">Enjoy Your favourite Chinese Recipies here!</h3>
+        <div class="row">
+            <div class="card">
+                <a href="../pages/chinese/hakka-noodles.html"><img src="../images/hakka-noodles.jpg" /></a>
+                <h2 class="item-name">Hakka-noodles</h2>
+            </div>
+           
+            <div class="card">
+                <a href="../pages/chinese/Veg-manchurian.html"><img src="../images/veg-manchurian-recipe.jpg" /></a>
+                <h2 class="item-name">Veg-manchurian</h2>
+            </div>
+
+            <div class="card">
+                <a href="../pages/chinese/Fried-rice.html"><img src="../images/schezwan-fried-rice-1.jpg" /></a>
+                <h2 class="item-name">Fried-rice</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <a href="../pages/chinese/Hot And Sour soup.html"><img src="../images/hot-and-sour-soup.jpg" /></a>
+                <h2 class="item-name">Hot And Sour soup</h2>
+            </div>
+
+            <div class="card">
+                <a href="../pages/chinese/Schezwan Noodles.html"><img src="../images/schezwan-noodles-1.jpg" /></a>
+                <h2 class="item-name">Schezwan Noodles</h2>
+            </div>
+
+            <div class="card">
+                <a href="../pages/chinese/schezwan-sauce.html"><img src="../images/schezwan-sauce-.jpg" /></a>
+                <h2 class="item-name">Schezwan Sauce</h2>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
