@@ -56,19 +56,9 @@ nav .menu{
 }
 .img{
   background-image: url('../images/panirparatha.jpeg');
-  background-repeat:no-repeat; 
   width: 100%;
-  height: 100hv;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-.img::before{
-  content: '';
-  position: absolute;
   height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background-size: cover;
 }
 .center{
   position: absolute;
@@ -80,12 +70,13 @@ nav .menu{
   text-align: center;
 }
 .center .title{
-  color: #fff;
+  color: black;
   font-size: 55px;
   font-weight: 600;
+  margin-top: 200px;
 }
 .center .sub_title{
-  color: #fff;
+  color: black;
   font-size: 52px;
   font-weight: 600;
 }
@@ -93,15 +84,13 @@ nav .menu{
   margin-top: 20px;
 }
 .center .btns button{
-  height: 66px;
-  width: 170px;
   border-radius: 5px;
   border: none;
   margin: 0 10px;
-  border: 2px solid white;
+  border: none;
   font-size: 20px;
   font-weight: 500;
-  padding: 0 10px;
+  padding: 20px 30px;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
@@ -112,9 +101,9 @@ nav .menu{
 }
 .btns button:first-child:hover{
   background: red;
-  color: skyblue;
+  color: white
 }
 .center .btns button:last-child{
   background: red;
- color: rgb(45, 124, 214);
+ color: black
 }
