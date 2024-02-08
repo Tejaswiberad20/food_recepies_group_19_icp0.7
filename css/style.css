@@ -110,11 +110,14 @@ nav .menu{
   color: #fff;
   background: none;
 }
-.btns button:first-child:hover{
-  background: red;
-  color: skyblue;
-}
 .center .btns button:last-child{
   background: red;
  color: rgb(45, 124, 214);
+}
+.footer-section{
+  text-align: center;
+}
+.images{
+  margin-top: 50px;
+  border-radius: 40px;
 }
