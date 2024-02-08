@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veg recceipe</title>
     <link rel="stylesheet" href="../css/starters.css">
-    <link rel="icon" href="../../images/chef.png"/>
-    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/chef.png" />
     <style>
-        @media screen and (min-width:992px){
-            .row{
+        @media screen and (min-width:992px) {
+            .row {
                 display: flex;
             }
 
         }
-        @media screen and (max-width:992px){
-            .row{
+
+        @media screen and (max-width:992px) {
+            .row {
                 flex-wrap: wrap;
             }
         }
-       
+
         body {
-            background-color: rgb(26, 22, 22);
+            background-color: black;
             margin: 0;
             padding: 0;
         }
@@ -36,51 +37,76 @@
 
         .page-headings {
             font-size: 60px;
-            padding:20px 10px 10px 10px;
+            padding: 20px 10px 10px 10px;
             text-align: center;
         }
 
-        .sub-heading{
+        .sub-heading {
             font-size: 40px;
             text-align: center;
         }
 
-        .row{            
+        .row {
             justify-content: space-around;
             padding: 20px;
         }
 
         img {
-            height: 550px;  
+            height: 550px;
             position: relative;
             border-radius: 10px;
-            box-shadow:0 0 10px 3px #a3a3a3;
+            box-shadow: 0 0 10px 3px #a3a3a3;
         }
 
-        img:hover{
+        img:hover {
             border: 3px solid black;
             border-radius: 50px;
             transition: 100ms;
         }
 
-        h2{
+        h2 {
             text-align: center;
         }
-        .item-name{
-            font-size: 40px; 
+
+        .item-name {
+            font-size: 40px;
             position: absolute;
             top: 460px;
             left: 10px;
         }
 
-        .card{
+        .card {
             position: relative;
         }
 
+        .nav ul {
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
+    <div class="menu">
+        <div class="logo" style="text-align: center;">
+            <a href="../index.html">Foodicted</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                <li><a href="../pages/starters.html"><i class=" fa fa-pizza-slice" aria-hidden="true"></i>Starters</a></li>
+                <li><a href="../pages/veg.html"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i>Veg</a></li>
+                <li><a href="../pages/Non veg.html"><i class="fa fa-drumstick-bite" aria-hidden="true"></i>Non-veg</a></li>
+                <li><a href="../pages/street-food.html"><i class="fa fa-burger" aria-hidden="true"></i>Street Food</a></li>
+                <li><a href="../pages/chinese.html"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i>Chinese</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
     <div class="container">
         <h1 class="page-headings">Indian's Veg Receipe</h1>
         <hr/>
@@ -126,6 +152,7 @@
         <p>Join our Community and add on your own recipies! <br/>Also get chance to interact with some world famous chef's and get featured on our page!</p>
         <button class="btn">Join Now</button><br/>
     </div>
+    <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
