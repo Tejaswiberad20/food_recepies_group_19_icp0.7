@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veg</title>
     <link rel="stylesheet" href="../css/starters.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../../images/chef.png"/>
     
     <style>
@@ -51,7 +52,7 @@
         }
 
         img {
-            height: 550px;  
+            height: 600px;  
             position: relative;
             border-radius: 10px;
             box-shadow:0 0 10px 3px #a3a3a3;
@@ -67,9 +68,9 @@
             text-align: center;
         }
         .item-name{
-            font-size: 40px; 
+            font-size: 30px; 
             position: absolute;
-            top: 460px;
+            top: 550px;
             left: 10px;
         }
 
@@ -77,18 +78,36 @@
             position: relative;
         }
 
-        ul{
+        .nav ul{
             color: white;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 
 <body>
+    <div class="menu">
+        <div class="logo" style="text-align: center;">
+            <a href="../index.html">Foodicted</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="../pages/about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> About Us</a></li>
+                <li><a href="../pages/starters.html"><i class=" fa fa-pizza-slice" aria-hidden="true"></i> Starters</a></li>
+                <li><a href="../pages/chinese.html"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Chinese</a></li>
+                <li><a href="../pages/street-food.html"><i class="fa fa-burger" aria-hidden="true"></i> Street Food</a></li>
+                <li><a href="../pages/veg.html"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Veg</a></li>
+                <li><a href="../pages/Non veg.html"><i class="fa fa-drumstick-bite" aria-hidden="true"></i> Non-veg</a></li>
+                <li><a href="../pages/community.html"><i class="fa-solid fa-users" aria-hidden="true"></i> Join Us</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
-        <h1 class="page-headings">Tasty And Delicious Veg Food</h1>
+        <h1 class="page-headings">Veg Food</h1>
         <hr/>
         <p>The simple act of becoming a vegetarian will make a difference in the health of our planet. </p>
 
@@ -105,7 +124,7 @@
             </div>
 
             <div class="card">
-                <a href="../pages/veg/panner-butter-masala.html"><img src="../images/veg/butter-panner-masala.jpeg" /></a>
+                <a href="../pages/veg/paneer-butter-masala.html"><img src="../images/veg/butter-panner-masala.jpeg" /></a>
                 <h2 class="item-name">Paneer Butter</h2>
             </div>
         </div>
@@ -122,7 +141,7 @@
 
             <div class="card">
                 <a href="../pages/veg/veg-cutlet.html"><img src="../images/veg/veg-cutlet.jpeg" /></a>
-                <h2 class="item-name">Veg Cutlet</h2>
+                <h2 class="item-name" >Veg Cutlet</h2>
             </div>
         </div>
 
@@ -130,8 +149,9 @@
     <div class="container">
         <h3 class="sub-heading"><i class="fa-solid fa-right-to-bracket" style="color: #000000;">  </i> Join Our Community Now!</h3>
         <p>Join our Community and add on your own recipies! <br/>Also get chance to interact with some world famous chef's and get featured on our page!</p>
-        <button class="btn">Join Now</button><br/>
+        <a href="../pages/community.html"><button class="btn">Join now</button></a><br />
     </div>
+    <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
