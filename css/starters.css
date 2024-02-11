@@ -29,7 +29,8 @@ body {
   font-size: 50px;
   padding: 20px;
   width: 90%;
-
+  display: block;
+  margin: 0 auto;
 }
 
 .main-img img {
@@ -47,8 +48,7 @@ body {
 
 .sub-heading {
   font-size: 40px;
-  padding-left: 10px;
-  padding-top: 25px;
+  padding: 25px 10px;
   text-align: center;
 }
 
