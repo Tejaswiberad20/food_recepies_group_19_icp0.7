@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veg recceipe</title>
+    <title>Veg</title>
     <link rel="stylesheet" href="../css/starters.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../../images/chef.png"/>
     
     <style>
@@ -22,7 +23,7 @@
         }
        
         body {
-            background-color: rgb(26, 22, 22);
+            background-color: black;
             margin: 0;
             padding: 0;
         }
@@ -51,7 +52,7 @@
         }
 
         img {
-            height: 550px;  
+            height: 600px;  
             position: relative;
             border-radius: 10px;
             box-shadow:0 0 10px 3px #a3a3a3;
@@ -67,9 +68,9 @@
             text-align: center;
         }
         .item-name{
-            font-size: 40px; 
+            font-size: 30px; 
             position: absolute;
-            top: 460px;
+            top: 550px;
             left: 10px;
         }
 
@@ -77,46 +78,70 @@
             position: relative;
         }
 
+        .nav ul{
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
+    <div class="menu">
+        <div class="logo" style="text-align: center;">
+            <a href="../index.html">Foodicted</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="../pages/about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> About Us</a></li>
+                <li><a href="../pages/starters.html"><i class=" fa fa-pizza-slice" aria-hidden="true"></i> Starters</a></li>
+                <li><a href="../pages/chinese.html"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Chinese</a></li>
+                <li><a href="../pages/street-food.html"><i class="fa fa-burger" aria-hidden="true"></i> Street Food</a></li>
+                <li><a href="../pages/veg.html"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i> Veg</a></li>
+                <li><a href="../pages/Non veg.html"><i class="fa fa-drumstick-bite" aria-hidden="true"></i> Non-veg</a></li>
+                <li><a href="../pages/community.html"><i class="fa-solid fa-users" aria-hidden="true"></i> Join Us</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
-        <h1 class="page-headings">Indian's Veg Receipe</h1>
+        <h1 class="page-headings">Veg Food</h1>
         <hr/>
-        <p><h4> Eating green to keep the planet clean. Let's Make Delicious Food.... </h4></p>
+        <p>The simple act of becoming a vegetarian will make a difference in the health of our planet. </p>
 
-        <h3 class="sub-heading">Enjoy Your healthy Meal Recipies here!</h3>
+        <h3 class="sub-heading">Enjoy Your favourite Veg Recipies here!</h3>
         <div class="row">
             <div class="card">
-                <a href="./pages/veg/veg-biryani.html"><img src="../images/veg/veg biryani.jpg">  </a>
-                <h2 class="item-name">biryani</h2>
+                <a href="../pages/veg/aalu-pakodi.html"><img src="../images/veg/aalu-pakodi.jpeg" /></a>
+                <h2 class="item-name">Aalu Pakodi</h2>
             </div>
 
             <div class="card">
-                <a href="/pages/veg/veg-curry.html"><img src="../images/veg/veg curry.jpg"/></a>
-                <h2 class="item-name">Dal Makhani</h2>
+                <a href="../pages/veg/dal-makhani.html"><img src="../images/veg/dal-makhani.jpg"> </a>
+                <h2 class="item-name">Dal Mhakhni</h2>
             </div>
 
             <div class="card">
-                <a href="/pages/starters/cookies.html"><img src="" /></a>
-                <h2 class="item-name">Eggless Cookies</h2>
+                <a href="../pages/veg/paneer-butter-masala.html"><img src="../images/veg/butter-panner-masala.jpeg" /></a>
+                <h2 class="item-name">Paneer Butter</h2>
             </div>
         </div>
         <div class="row">
             <div class="card">
-                <a href="/pages/starters/paneer-65.html"><img src="../images/paneer-65-recipe.jpg" /></a>
-                <h2 class="item-name">Paneer 65</h2>
+                <a href="../pages/veg/veg-biryani.html"><img src="../images/veg/veg biryani.jpg" /></a>
+                <h2 class="item-name">Veg Biryani</h2>
             </div>
 
             <div class="card">
-                <a href="/pages/starters/paneer-tikka.html"><img src="../images/paneer-tikka-recipe.jpg" /></a>
-                <h2 class="item-name">Paneer Tikka</h2>
+                <a href="../pages/veg/veg-curry.html"><img src="../images/veg/veg-curry.jpeg" /></a>
+                <h2 class="item-name">Veg Curry</h2>
             </div>
 
             <div class="card">
-                <a href="/pages/starters/methi-muthia.html"><img src="../images/methi-muthia-recipe.jpg" /></a>
-                <h2 class="item-name">Methi Muthia</h2>
+                <a href="../pages/veg/veg-cutlet.html"><img src="../images/veg/veg-cutlet.jpeg" /></a>
+                <h2 class="item-name" >Veg Cutlet</h2>
             </div>
         </div>
 
@@ -124,8 +149,9 @@
     <div class="container">
         <h3 class="sub-heading"><i class="fa-solid fa-right-to-bracket" style="color: #000000;">  </i> Join Our Community Now!</h3>
         <p>Join our Community and add on your own recipies! <br/>Also get chance to interact with some world famous chef's and get featured on our page!</p>
-        <button class="btn">Join Now</button><br/>
+        <a href="../pages/community.html"><button class="btn">Join now</button></a><br />
     </div>
+    <script src="https://kit.fontawesome.com/14a1a7dd00.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
