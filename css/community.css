@@ -22,6 +22,7 @@ body {
     width: 70%;
     margin: 10px auto;
     border-radius: 30px;
+    padding: 10px;
 }
 
 .page-headings {
@@ -58,16 +59,25 @@ h2 {
     justify-content: space-around;
     margin-bottom: 20px;
 }
-form{
+
+form {
     font-size: 30px;
     margin-left: 50px;
     padding: 10px;
 }
-input{
+
+input {
     font-size: 20px;
-    margin-left: 150px;
     padding: 10px;
     width: 70%;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+
+h1 {
+
+    text-align: center;
 }
 
 .btn {
@@ -81,4 +91,16 @@ input{
     display: block;
     border: none;
     margin: 0px auto;
-  }
+}
+
+.card {
+    background-color: white;
+    width: 20%;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.card a{
+    font-size: 40px;
+}
