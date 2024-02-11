@@ -12,7 +12,7 @@ This landing page has all the available options of the website including home, a
 [Home Page](index.html)
 
 *Check out our about page* [About page](pages/about.html)<br/>
-*Check out our about page* [Join Us page](pages/community.html)
+*Check out our Join Us page* [Join Us page](pages/community.html)
 
 ## CONTRIBUTORS
 This is a group Project Made by G-19 Under the guidance of Om Nandurkar Sir And Pinky Mam.

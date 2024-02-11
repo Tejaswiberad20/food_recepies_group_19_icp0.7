@@ -23,4 +23,16 @@ This website has various pages:
 
 7. Non-Veg Page [Non-Veg Page](Non%20veg.html)
 
+## CONTRIBUTORS
+This is a group Project Made by G-19 Under the guidance of Om Nandurkar Sir And Pinky Mam.
+
+The group Members are:
+1. Prapti Bargir
+2. Tejaswi Bread
+3. Vaishnavi Tamnar
+4. Pratiksha Katore
+5. Neha Jadhav
+6. Janhvi Chincholkar
+
+
 
