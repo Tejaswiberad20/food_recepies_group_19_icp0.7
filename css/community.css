@@ -1,13 +1,15 @@
 @media screen and (min-width:992px) {
-    .row {
-        display: flex;
+    .card {
+        width: 20%;
+        
     }
 
 }
 
 @media screen and (max-width:992px) {
-    .row {
-        flex-wrap: wrap;
+    .card {
+        width: 80%;
+        font-size:30px;
     }
 }
 
@@ -95,7 +97,6 @@ h1 {
 
 .card {
     background-color: white;
-    width: 20%;
     margin: 20px auto;
     text-align: center;
     border-radius: 30px;
