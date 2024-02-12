@@ -5,6 +5,18 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+@media screen and (min-width:992px) {
+  .content {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+  .content {
+    flex-wrap: wrap;
+  }
+}
 ::selection{
   color: #000;
   background: #fff;
@@ -30,6 +42,7 @@ nav .menu{
   font-size: 35px;
   font-weight: 600;
   text-align: right;
+  position: sticky;
 }
 .menu ul{
   display: inline-flex;
